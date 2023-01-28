@@ -29,6 +29,9 @@ div.text {
 .note > li {
     color: rgb(93, 61, 63);
 }
+.subnote > i {
+    color: rgb(217, 200, 200);
+}
 .subnote ~ li {
     color: darkgray;
 }

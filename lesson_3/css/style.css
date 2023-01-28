@@ -1,0 +1,44 @@
+ /*@import url(reset.css);*/
+
+* {
+    background-color: antiquewhite;
+}
+header {
+    color: black;
+}
+.main {
+    color: darkred;
+}
+#p-1 {
+    color: rgb(73, 53, 53);
+}
+div.text {
+    color: cadetblue;
+}
+.paragraph,
+.paragraph2,
+.paragraph3 {
+    color: darkcyan;
+}
+.lesson p {
+    color: burlywood;
+}
+.lesson .textlesson {
+    color: gray;
+}
+.note > li {
+    color: rgb(93, 61, 63);
+}
+.sabnote ~ li {
+    color: darkgray;
+}
+.sabnote + li {
+    color: rgb(182, 23, 23);
+}
+.source * {
+    color: dimgray;
+}
+
+[class*="_container"] {
+    color: cadetblue;
+}

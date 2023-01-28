@@ -29,10 +29,10 @@ div.text {
 .note > li {
     color: rgb(93, 61, 63);
 }
-.sabnote ~ li {
+.subnote ~ li {
     color: darkgray;
 }
-.sabnote + li {
+.subnote + li {
     color: rgb(182, 23, 23);
 }
 .source * {

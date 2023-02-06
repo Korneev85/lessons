@@ -29,7 +29,7 @@ p {
 }
 .title_one{
     height: 80px;
-    width: 300px;
+    width: 400px;
     margin-top: 115px;
     margin-bottom:  40px;
 }
@@ -42,8 +42,9 @@ p {
 }
 .title_two {
     margin-top: 80px;
+    margin-bottom: 40px;
     height: 120px;
-    width: 370px;
+    width: 605px;
 }
 .text_two__container {
     margin-top: 80px;

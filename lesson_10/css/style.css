@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #b7c2e54c;
+    padding: 50px 0px;
+}
+[class*="__container"] {
+    max-width: 1270px; /* 1240 + 15 + 15 */
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-slider {
+    background: url(../img/img-heder.webp) no-repeat;
+    height: 500px;
+    width: 1240px;
+    border-radius: 5px;
+    color: #F8F9FA;
+}
+.trend__img-1 {
+    background: url(../img/trend-1.webp) 0 0 / 100% no-repeat;
+    height: 450px;
+    width: 817px;
+}
+.trend__img-2 {
+    background: url(../img/trend-2.webp) 0 0 / 100% no-repeat;
+    height: 450px;
+    width: 393px;
+}
+.trend__img-3 {
+    background: url(../img/trend-3.webp) 0 0 / 100% no-repeat;
+    height: 450px;
+    width: 393px;
+}
+.trend__img-4 {
+    background: url(../img/trend-4.webp) 0 0 / 100% no-repeat;
+    height: 450px;
+    width: 393px;
+}
+.trend__img-5 {
+    background: url(../img/trend-5.webp) 0 0 / 100% no-repeat;
+    height: 450px;
+    width: 393px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 393px;
+    padding: 0px;
+    gap: 15px;
+}
+.info_black {
+    color: #212529
+}
+.info_white {
+    color: #F8F9FA;
+}
+.footer {
+    max-width: 1440px;
+    Height: 325px;
+    color: #F8F9FA;
+    background: #212529;
+}
+.line {
+    max-width: 1240px;
+    border: 1px solid rgba(229, 229, 229, 0.2);
+}

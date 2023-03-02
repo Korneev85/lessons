@@ -10,10 +10,10 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.main-slider {
-    background: url(../img/img-heder.webp) no-repeat;
-    height: 500px;
-    width: 1240px;
+.main__slider {
+    background: url(../img/img-heder.webp) 0 0 / 100% no-repeat;
+    min-height: 500px;
+    max-width: 1240px;
     border-radius: 5px;
     color: #F8F9FA;
 }
@@ -24,22 +24,22 @@ body {
 }
 .trend__img-2 {
     background: url(../img/trend-2.webp) 0 0 / 100% no-repeat;
-    height: 450px;
+    height: 250px;
     width: 393px;
 }
 .trend__img-3 {
     background: url(../img/trend-3.webp) 0 0 / 100% no-repeat;
-    height: 450px;
+    height: 250px;
     width: 393px;
 }
 .trend__img-4 {
     background: url(../img/trend-4.webp) 0 0 / 100% no-repeat;
-    height: 450px;
+    height: 250px;
     width: 393px;
 }
 .trend__img-5 {
     background: url(../img/trend-5.webp) 0 0 / 100% no-repeat;
-    height: 450px;
+    height: 250px;
     width: 393px;
 }
 .info {

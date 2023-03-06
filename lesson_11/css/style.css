@@ -1,0 +1,143 @@
+@import url(reset.css);
+@import url(common.css);
+    
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5; /* 24/16 */
+    color: #212B36;
+    background-color: #E5E5E5;
+}
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+[class*="__container"] {
+    max-width: 1200px; /* 1170 + 15 + 15 */
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header__menu {
+    display: inline-block;
+    max-height: 100px;
+    padding: 29px 0px;
+    background: #FFFFFF; 
+}
+.menu {
+}
+* a:hover {
+    color: #3056D3;
+}
+.menu__logo {
+    display: inline-block;
+    background: url(../img/icons/logo.png) no-repeat;
+    width: 160px;
+    font-size: 24px;
+    line-height: 1.7; 
+    color: #362122;
+    padding-left: 52px;
+    margin-right: 40px;
+}
+.menu__categories {
+    position: relative;
+    background: #F4F7FF;
+    border-radius: 5px;  
+    width: 170px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 40px;
+    transition: all 0.3s ease 0s;
+}
+.menu__categories:hover .categories__list {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+}
+.categories {
+}
+.categories__list {
+    position: absolute;
+    top: 100%; 
+     
+    left: 0;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #637381;
+    background-color: #FFFFFF;
+    border: 0.5px solid #E7E7E7;
+    border-radius: 5px;
+    padding: 22xp;
+    z-index: 2;
+    min-width: 180px;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.categories__list:not(:last-child) {
+    margin-bottom: 13px;
+   
+}
+.categories__list:hover .categories__item {
+    
+}
+.categories__item {
+
+}
+.categories__link {
+    
+}
+.categories__row {
+    
+}
+.categories__columns {
+}
+.columns {
+}
+.columns__list {
+    display: none;
+}
+.columns__name {
+}
+.columns__link {
+}
+.columns__img {
+}
+.menu__row {
+    display: inline-block;
+    margin-right: 110px;
+}
+.menu__list {
+}
+.menu__item {
+    display: inline-block;
+}
+.menu__item:not(:last-child) {
+    margin-right: 40px;
+}
+.menu__link {
+}
+.menu__icons {
+    display: inline-block;
+}
+.menu__icon {
+}
+.menu__icon a:not(:last-child) {
+    margin-right: 22px;
+}
+.search {
+}
+.favorite {
+}
+.basket {
+    background: url(../img/icons/basket.png) center / cover no-repeat;
+    width: 26px;
+    height: 26px;
+}

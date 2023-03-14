@@ -52,6 +52,10 @@ h2 {
     font-size: 25px;
     line-height: 1.6; /* 40/25 */
 }
+h2:hover {
+    text-decoration: underline;
+
+}
 img {
     max-width: 100%;
 }
@@ -135,4 +139,8 @@ img {
     background-color: #212529;
     border-radius: 3px;
     box-sizing: content-box;
+}
+.footer__butten:hover {
+    color: #212529;
+    background-color: #F8F9FA;
 }

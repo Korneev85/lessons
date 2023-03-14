@@ -129,11 +129,10 @@ img {
     line-height: 2.1; /* 25/12 */
     color: #F8F9FA;
     text-align: center;
-    width: 178px;
-    height: 40px;
-    padding: 7px 50px 8px 49px;
+    max-width: 178px;
+    max-height: 40px;
+    padding: 8px 50px;
     background-color: #212529;
     border-radius: 3px;
     box-sizing: content-box;
-
 }

@@ -1,8 +1,8 @@
+
 .arrow::after {
     content: "";
-    display: inline-block;
+    display: inline-flex;
     background: url(../img/icons/arrow.png) no-repeat;
-    margin-left: 7px;
     width: 11px;
     height: 6px;
 }

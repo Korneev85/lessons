@@ -15,16 +15,16 @@
 }
 
 /*-------------------------*/
-.page-header__container *:not(:last-child) {
+.page-header__container > :not(:last-child) {
     margin-bottom: 40px;
 }
 .page-header__title {
     display: block;
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.4;
     color: #000000;
-    text-align: center;
     max-width: 490px;
     margin: 0 auto;
 }
@@ -35,8 +35,12 @@
     margin-bottom: 53px;
 }
 .page-header__text {
-    color: #000000;
     text-align: center;
+    color: #000000;
     max-width: 520px;
+    margin: 0 auto;
+}
+.page-header__title_portofolio {
+    max-width: 280px;
     margin: 0 auto;
 }

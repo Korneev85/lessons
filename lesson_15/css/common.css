@@ -1,0 +1,42 @@
+
+.button {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5; 
+    background-color: #2C3878;
+    border: 1px solid #3C3C3C;
+    padding: 14px 34px;
+    transition: transform 0.2s;
+}
+.button:hover {
+    transform: scale(1.02);
+}
+
+/*-------------------------*/
+.page-header__container *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.page-header__title {
+    display: block;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4;
+    color: #000000;
+    text-align: center;
+    max-width: 490px;
+    margin: 0 auto;
+}
+.page-header__title:hover {
+    color: #4f4d4d;
+}
+.page-header_margin-53 {
+    margin-bottom: 53px;
+}
+.page-header__text {
+    color: #000000;
+    text-align: center;
+    max-width: 520px;
+    margin: 0 auto;
+}

@@ -49,7 +49,6 @@ body {
 }
 .offer__item {
     display: flex;
-    flex-wrap: no-wrap;
     flex-direction: column;
     row-gap: 40px;
 }

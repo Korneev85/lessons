@@ -130,6 +130,7 @@ body {
     overflow: hidden;
 }
 .minimal-style__imege img {
+    flex: 0 1 1200px;
     max-width: 100%;
     transition: transform 0.8s;
 }
@@ -188,6 +189,7 @@ body {
     overflow: hidden;
 }
 .minimal-style__imeges img {
+    flex: 0 1 584px;
     max-width: 100%;
     transition: transform 0.8s;
 }.minimal-style__imeges:hover img {

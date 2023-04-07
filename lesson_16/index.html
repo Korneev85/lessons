@@ -89,15 +89,15 @@
                                 <div class="address-shipping__forms form">
                                     <div class="form__line">
                                         <label class="form__label" for="email">Email Address<span class="span">*</span></label>
-                                        <input class="form__input" id="email" required placeholder="roni_cost@example.com" type="email">
+                                        <input class="form__input" id="email" name="email" required placeholder="roni_cost@example.com" type="email">
                                     </div>
                                     <div class="form__line">
                                         <label class="form__label" for="password">Password</label>
-                                        <input class="form__input" id="password" required placeholder="******************" maxlength="8" type="password">
+                                        <input class="form__input" id="password" name="password" required placeholder="******************" maxlength="8" type="password">
                                     </div>
                                     <div class="form__line">
                                         <label class="form__label" for="zip">Zip/Postal Code</label>
-                                        <input class="form__input" id="zip" required type="text">
+                                        <input class="form__input" id="zip" name="" required type="text">
                                     </div>
                                 </div>
                                 <div class="address-shipping__text">You already have an account with us. Sign in or continue as guest.</div>
@@ -126,10 +126,10 @@
                                     <input class="form__input" id="street-address" required type="text">
                                 </div>
                                 <div class="form__line form__line_end">
-                                    <input class="form__input" id="street-address" type="text">
+                                    <input class="form__input" type="text">
                                 </div>
                                 <div class="form__line form__line_end">
-                                    <input class="form__input" id="street-address" type="text">
+                                    <input class="form__input" type="text">
                                 </div>
                                 <div class="form__line">
                                     <label class="form__label" for="country">Country<span class="span">*</span></label>
@@ -137,8 +137,8 @@
                                 </div>
                                 <div class="form__line">
                                     <label class="form__label" for="state">State/Province<span class="span">*</span></label>
-                                    <select class="form__select" id="state" placeholder="Please select a region, state or province" type="text">
-                                        <option value="0">Please select a region, state or province</option>
+                                    <select class="form__select" id="state"type="text">
+                                        <option selected value="0">Please select a region, state or province</option>
                                         <option value="1">Dnipropetrovsk</option>
                                         <option value="2">Kharkiv</option>
                                         <option value="3">Kyiv</option>

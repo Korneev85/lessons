@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+    <body>
+        <div class="wrapper">
+            <header>
+            </header>
+            <main class="main">
+                <div class="page__forms forms">
+                    <div class="forms__container">
+                       <div class="forms__header header-forms">
+                         <div class="header-forms__title">Checkout</div>
+                         <div class="header-forms__text">There are 3 products in your cart</div>
+                         <div class="header-forms__sub-title">Billing Details</div>
+                       </div>
+                       <form class="forms__page" action="https://jsonplaceholder.typicode.com/posts" method="get" enctype="multipart/form-data">
+                           <div class="forms__item item-forms">
+                             <div class="item-forms__column">
+                                <div class="item-forms__line">
+                                    <input tabindex="1" required name="first-name" value="" placeholder="First name*" type="text" class="item-forms__input">
+                                </div>
+                                <div class="item-forms__line">
+                                    <input tabindex="3" required name="address" value="" placeholder="Address*" type="text" class="item-forms__input">
+                                </div>
+                                <div class="item-forms__line">
+                                    <input tabindex="5" required name="country" value="" placeholder="Country*" type="text" class="item-forms__input">
+                                </div>
+                                <div class="item-forms__line">
+                                        <input tabindex="7" required maxlength="8" name="postcode" value="" placeholder="Postcode / ZIP*" type="text" class="item-forms__input">
+                                </div>
+                                <div class="item-forms__line">
+                                    <input tabindex="9" required maxlength="8" name="postcode" value="" placeholder="Postcode / ZIP*" type="text" class="item-forms__input">
+                                </div>
+                             </div>
+                             <div class="item-forms__column">
+                                <div class="item-forms__line">
+                                   <input tabindex="2" required name="last-name" value="" placeholder="Last name*" type="text" class="item-forms__input">
+                               </div>
+                                <div class="item-forms__line">
+                                   <input tabindex="4" name="address-2" value="" placeholder="Address line 2" type="text" class="item-forms__input">
+                               </div>
+                                <div class="item-forms__line">
+                                   <input tabindex="6" required name="city" value="" placeholder="City/Town*" type="text" class="item-forms__input">
+                               </div>
+                                <div class="item-forms__line">
+                                   <input tabindex="8" required name="phone" value="" placeholder="Phone*" type="tel" class="item-forms__input">
+                               </div>
+                                <div class="item-forms__line">
+                                   <input tabindex="10" required name="phone" value="" placeholder="Phone*" type="tel " class="item-forms__input">
+                               </div>
+                            </div>
+                           </div>
+                           <div class="forms__information">
+                            <textarea class="forms__area" name="message" autocomplete="off" placeholder="Additional information"></textarea>
+                           </div>
+                           <div class="forms__selection selection-forms">
+                             <input class="selection-forms__chk-imput" checked id="chk-account" required name="account" type="checkbox">
+                             <label class="selection-forms__chk-label" for="chk-account">Create Account</label>
+                           </div>
+                           <div class="forms__selection selection-forms">
+                            <input class="selection-forms__chk-imput" id="chk-addres" required name="addres" type="checkbox">
+                            <label class="selection-forms__chk-label" for="chk-addres">Ship to a different address?</label>
+                          </div>
+                           <div class="forms__applycode">
+                            <div class="applycode-container">
+                                <div class="applycode-container__title">Apply Coupon to get discount!</div>
+                                <div class="applycode-container__row row-applycode">
+                                    <input class="row-applycode__input" placeholder="Coupon code" type="text">
+                                    <button class="row-applycode__button button_br" type="submit">Apply Code</button>
+                                </div>
+                            </div>
+                           </div>
+                       </form>
+                    </div>
+                </div>
+                <div class="page__shipping shipping">
+                    <div class="shipping__container">
+                        <form class="shipping__address" action="https://jsonplaceholder.typicode.com/posts" method="post" enctype="multipart/form-data">
+                            <div class="address-shipping">
+                                <div class="address-shipping__title title">Shipping Address</div>
+                                <div class="address-shipping__forms form">
+                                    <div class="form__line">
+                                        <label class="form__label" for="email">Email Address<span class="span">*</span></label>
+                                        <input class="form__input" id="email" required placeholder="roni_cost@example.com" type="email">
+                                    </div>
+                                    <div class="form__line">
+                                        <label class="form__label" for="password">Password</label>
+                                        <input class="form__input" id="password" required placeholder="******************" maxlength="8" type="password">
+                                    </div>
+                                    <div class="form__line">
+                                        <label class="form__label" for="zip">Zip/Postal Code</label>
+                                        <input class="form__input" id="zip" required type="text">
+                                    </div>
+                                </div>
+                                <div class="address-shipping__text">You already have an account with us. Sign in or continue as guest.</div>
+                                <div class="address-shipping__button">
+                                    <button class="button" type="button">login</button>
+                                    <div class="address-shipping__question"><a href="">Forgot Your Password?</a></div>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="shipping__forms" action="https://jsonplaceholder.typicode.com/posts" method="post" enctype="multipart/form-data">
+                            <div class="shipping__main form">
+                                <div class="form__line">
+                                    <label class="form__label" for="first-name">First Name<span class="span">*</span></label>
+                                    <input class="form__input" id="first-name" required type="text">
+                                </div>
+                                <div class="form__line">
+                                    <label class="form__label" for="last-name">Last Name<span class="span">*</span></label>
+                                    <input class="form__input" id="last-name" required type="text">
+                                </div>
+                                <div class="form__line">
+                                    <label class="form__label" for="company">Company</label>
+                                    <input class="form__input" id="company" type="text">
+                                </div>
+                                <div class="form__line">
+                                    <label class="form__label" for="street-address">Street Address<span class="span">*</span></label>
+                                    <input class="form__input" id="street-address" required type="text">
+                                </div>
+                                <div class="form__line form__line_end">
+                                    <input class="form__input" id="street-address" type="text">
+                                </div>
+                                <div class="form__line form__line_end">
+                                    <input class="form__input" id="street-address" type="text">
+                                </div>
+                                <div class="form__line">
+                                    <label class="form__label" for="country">Country<span class="span">*</span></label>
+                                    <input class="form__input" id="country" required type="text">
+                                </div>
+                                <div class="form__line">
+                                    <label class="form__label" for="state">State/Province<span class="span">*</span></label>
+                                    <select class="form__select" id="state" placeholder="Please select a region, state or province" type="text">
+                                        <option selected value="0">Please select a region, state or province</option>
+                                        <option value="1">Dnipropetrovsk</option>
+                                        <option value="2">Kharkiv</option>
+                                        <option value="3">Kyiv</option>
+                                        <option value="4">Poltava</option>
+                                        <option value="5">Vinnytsia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="shipping__methods method-shippeng">
+                                <div class="method-shippeng__title title">Shipping Methods</div>
+                                <div class="method-shippeng__redio radio-form">
+                                    <div class="radio-form__box radio">
+                                        <div class="radio__item">
+                                            <div class="radio__text">
+                                                <input checked class="radio__input" id="fixed-1" required autocomplete="off" value="$5.00" name="rate" type="radio">
+                                                <label class="radio__label" for="fixed-1">$5.00</label>
+                                            </div>
+                                            <div class="radio__text">Fixed</div>
+                                            <div class="radio__text">Flat Rate</div>
+                                        </div>
+                                        <div class="radio__item radio__item_line">
+                                            <div class="radio__text">
+                                                <input class="radio__input" id="fixed-2" required autocomplete="off" value="$10.00" name="rate" type="radio">
+                                                <label class="radio__label" for="fixed-2">$10.00</label>
+                                            </div>
+                                            <div class="radio__text">Table Rate</div>
+                                            <div class="radio__text">Best Way</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="method-shippeng__buttons">
+                                    <button class="button" type="submit">next</button>
+                                    <button class="button button_white" type="reset">Back</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+            </footer>
+        </div>
+    </body>
+</html> 

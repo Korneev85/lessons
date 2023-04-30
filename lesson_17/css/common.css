@@ -1,0 +1,56 @@
+
+.button_br {
+    color: #fff;
+    font-weight: 600;
+    background: #212B36;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 22px;
+    gap: 10px;
+    transition: transform 0.2s;
+}
+.button_br:hover {
+    transform: scale(1.03);
+}
+/*-------------------------*/
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2.83; /* 68/24 */
+    color: #000;
+}
+@media (max-width: 425px) {
+    .title {
+        font-size: 28px;
+    }
+}
+/*-------------------------*/
+.button {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5; /* 21/14 */
+    color: #fff;
+    background: #000000;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    transition: transform 0.2s;
+}
+.button:hover {
+    transform: scale(1.03);
+}
+.button_white {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+.button_white:hover {
+    color: #fff;
+    background: #000;
+}

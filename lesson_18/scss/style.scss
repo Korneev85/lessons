@@ -69,7 +69,23 @@ body {
         z-index: 2;
         column-gap: rem(25);
         row-gap: rem(15);
-        flex: 0 0 rem(166);
+        flex: 0 1 rem(166);
+    }
+    @media (max-width: em(600)) {
+        &__btn {
+            flex: 1 1 rem(166);
+            justify-content: flex-end;
+        }
+    }
+    @media (max-width: em(375)) {
+        &__container {
+            flex-wrap: wrap;
+            padding: rem(7);
+        }
+        &__btn {
+            flex: 1 0 rem(166);
+            justify-content: center;
+        }
     }
 }
 .menu {

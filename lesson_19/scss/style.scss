@@ -139,7 +139,6 @@ body {
         }
         @media (max-width: em(767.98)) {
             &:not(:last-child) {
-                font-size: rem;
                 margin-bottom: rem(5);
             }
         }
